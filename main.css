@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #5994aa;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("krystal.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #4a7788;
+}
+
+.darkteal {
+    color: #4a7788;
+}
+
+.center{
+    text-align: center;
+    border-radius: 100px;
+}
+
+.plaincener{
+    text-align: center;
+}
+
+.purplebubble {
+    padding: 35px;
+    background-color:#f0b7ec;
+    opacity: 0.5;
+    text-align: center;
+    border-radius: 80px;
+    
+}
+
+p {
+    border-radius: 100px;
+    padding: 20px;
+}
+
+ul {
+    border-radius: 100px;
+    padding-right: 50px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
