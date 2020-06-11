@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff7e;
+}
 
 *{
     box-sizing: border-box;
-    color: #5994aa;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #4a7788;
+    font-size: 25px;
 }
+
 
 body {
     background-image: url("krystal.jpg");
@@ -15,22 +24,36 @@ body {
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 65px;
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
     font-weight: bolder;
 }
 
 h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 50px;
 }
 
 h3 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
     color: #4a7788;
 }
+.box {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+    margin: 15px;
+}
 
+.box1 { 
+    background-color:#f0b7ec;
+    opacity: 0.6;
+}
+.box2 { background: #ffffff7e;
+}
 .darkteal {
     color: #4a7788;
 }
@@ -47,7 +70,7 @@ h3 {
 .purplebubble {
     padding: 35px;
     background-color:#f0b7ec;
-    opacity: 0.5;
+    opacity: 0.6;
     text-align: center;
     border-radius: 80px;
     
@@ -66,3 +89,18 @@ ul {
     padding-bottom: 20px;
     text-align: left;
 }
+
+
+.container {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border: 5px solid #4a7788;
+    margin-bottom: 10px;
+    margin-right: 15px;}
